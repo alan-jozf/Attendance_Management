@@ -84,7 +84,7 @@ def fun(balance, curres=[], theday=0, app=0):
 
 
 if (flag==1):
-    print('\n\nYou are out of eligibility')
+    print('\n\nYou are NOT ELIGIBLE')
 
 else:
     fun(LEAVEPOSSIBLE)
@@ -96,7 +96,7 @@ else:
     else:
         print('\n\n\n\tThe given Results are the Different Possibilities to take "MAXIMUM No of LEAVES" !!!\n')
         print('\n\t\t   Note that "change in Time Table will affect the accuracy" (;'+'\n'*2 +' '*13+'~'*70+'\n'*3)
-        count =0
+        count = 0
         for x in result:
             if len(x[0])==maxcount:
                 count+=1
